@@ -19,7 +19,12 @@ limitations under the License.
 require_once('Microsoft/AutoLoader.php');
 require_once('GuestBookEntry.class.php');
 
-// Setup some constant configuration values
+/*
+ * Configuration values
+ * NOTE: By default this sample is set to run in local development storage
+ * 	 if you wish to run the sample on Windows Azure you must change
+ *	 DEV to false and set your account and keys appropriately
+ */
 define('DEV', true);
 define('STORAGE_ACCOUNT', '<endpoint of your storage account>');
 define('STORAGE_KEY', '<storage account key>');
