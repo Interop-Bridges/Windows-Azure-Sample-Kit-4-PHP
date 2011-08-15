@@ -60,9 +60,6 @@ if(isset($_POST['NameTextBox']) && isset($_POST['MessageTextBox'])) {
     $table->insertEntity(TABLE_GUESTBOOK, $g);
 }
 
-if(isset($_POST['Update'])) {
-    echo "<b>UPDATE NOT YET IMPLEMENTED</b>";
-}
 
 // User wishes to delete something
 if(isset($_GET['Delete']) && isset($_GET['key'])) {
